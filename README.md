@@ -111,4 +111,4 @@ DL_PR1/
 
 ## Video Explanation Link
 
-[Add your video link here]
+https://drive.google.com/file/d/1zpwE6kXhGyoTzOHd5nvQvi7cJQbISIUQ/view?usp=sharing
