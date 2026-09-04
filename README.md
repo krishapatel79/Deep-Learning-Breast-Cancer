@@ -87,8 +87,8 @@ The full breakdown, training curves, and confusion matrices for every model are 
 ```
 DL_PR1/
 │
-├── DL_PR1.ipynb        Full Jupyter notebook (all 7 tasks, executed with real results)
-├── DL_PR1.html          HTML export of the executed notebook
+├── Breast_cancer.ipynb        Full Jupyter notebook (all 7 tasks, executed with real results)
+├── Breast_cancer.html          HTML export of the executed notebook
 ├── README.md            This file
 ├── requirements.txt     Python package requirements
 ├── plots/                Saved plots (PNG) from every task
@@ -104,7 +104,7 @@ DL_PR1/
    ```
 3. Launch Jupyter Notebook or Jupyter Lab:
    ```bash
-   jupyter notebook DL_PR1.ipynb
+   jupyter notebook Breast_cancer.ipynb
    ```
 4. Run all cells from top to bottom (Restart & Run All). The notebook does not need any manual
    changes between cells.
