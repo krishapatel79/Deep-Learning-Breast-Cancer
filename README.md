@@ -1,22 +1,12 @@
-# Deep Learning PR 1 — Breast Cancer Classification with Neural Networks
+# Breast Cancer Classification with Neural Networks - Deep learning
+
+## Video Explanation Link
+
+https://drive.google.com/file/d/1zpwE6kXhGyoTzOHd5nvQvi7cJQbISIUQ/view?usp=sharing
 
 ## Project Description
 
-This project builds and compares several neural network models to classify breast tumor samples
-as malignant or benign, using the Breast Cancer Wisconsin (Diagnostic) dataset. The notebook covers
-data exploration and preprocessing, a single-layer perceptron baseline, a multi-layer perceptron
-with different activation functions, early stopping, dropout regularization, and weight
-regularization (L1, L2, L1-L2). It ends with a full comparison of all models and a discussion of
-which model is best suited for a clinical decision-support tool.
-
-## Dataset Information
-
-- Source: `sklearn.datasets.load_breast_cancer(as_frame=True)`
-- Samples: 569
-- Features: 30 numeric features
-- Target: binary (0 = Malignant, 1 = Benign)
-- Class distribution: 212 malignant, 357 benign (mild class imbalance)
-- No missing values
+This project uses a Neural Network to classify breast tumor samples as malignant or benign. It uses the Breast Cancer Wisconsin (Diagnostic) dataset. The project includes data preprocessing, a Single-Layer Perceptron, Multi-Layer Perceptron, activation function comparison, early stopping, dropout, and regularization techniques.
 
 ## Technologies Used
 
@@ -26,6 +16,15 @@ which model is best suited for a clinical decision-support tool.
 - pandas, numpy
 - matplotlib, seaborn
 - Jupyter Notebook
+
+## Dataset Information
+
+- Source: `sklearn.datasets.load_breast_cancer(as_frame=True)`
+- Samples: 569
+- Features: 30 numeric features
+- Target: binary (0 = Malignant, 1 = Benign)
+- Class distribution: 212 malignant, 357 benign (mild class imbalance)
+- No missing values
 
 ## Tasks Covered
 
@@ -82,19 +81,6 @@ The full breakdown, training curves, and confusion matrices for every model are 
   discussed in detail in the "Clinical Insight for Medical Diagnosis Support" section of the
   notebook.
 
-## Project Files
-
-```
-DL_PR1/
-│
-├── Breast_cancer.ipynb        Full Jupyter notebook (all 7 tasks, executed with real results)
-├── Breast_cancer.html          HTML export of the executed notebook
-├── README.md            This file
-├── requirements.txt     Python package requirements
-├── plots/                Saved plots (PNG) from every task
-└── video link            Link to the project walkthrough video
-```
-
 ## How to Run
 
 1. Create and activate a virtual environment (optional but recommended).
@@ -109,6 +95,4 @@ DL_PR1/
 4. Run all cells from top to bottom (Restart & Run All). The notebook does not need any manual
    changes between cells.
 
-## Video Explanation Link
-
-https://drive.google.com/file/d/1zpwE6kXhGyoTzOHd5nvQvi7cJQbISIUQ/view?usp=sharing
+--
